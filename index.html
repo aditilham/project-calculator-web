@@ -12,63 +12,43 @@
 
 
 <body>
-    <div class="container" style="text-align: -webkit-center; margin-top: 170px;">
-        <section class="main">
-            <h4>Simply Calculator</h4>
-            <div class="calculator">
-                <div class="col-sm  result">
-                    <input type="text" class="calculator-screen" style="margin: 10px" value="" disabled />
-                </div>
+    <h1 style="
+      text-align:center; margin-top:20px;">Simply Calculator
+    </h1>
+    <div class="calculator">
+
+        <input type="text" class="calculator-screen" value="" disabled />
+
+        <div class="calculator-keys">
+
+            <button type="button" class="btn-outline-primary operator" value="+">+</button>
+            <button type="button" class="btn-outline-primary operator" value="-">-</button>
+            <button type="button" class="btn-outline-primary operator" value="*">&times;</button>
+            <button type="button" class="btn-outline-primary operator" value="/">&divide;</button>
+
+            <button type="button" class="btn-outline-dark" value="7">7</button>
+            <button type="button" class="btn-outline-dark" value="8">8</button>
+            <button type="button" class="btn-outline-dark" value="9">9</button>
 
 
-                <div class="calculator-keys">
-                    <div class="row justify-content-center">
-                        <div class="col-sm">
-                            <button type="button" class="btn btn-outline-dark" style="margin: 2px" value="7">7</button>
-                            <button type="button" class="btn btn-outline-dark" style="margin: 2px" value="8">8</button>
-                            <button type="button" class="btn btn-outline-dark" style="margin: 2px" value="9">9</button>
-                            <button type="button" class="btn btn-outline-primary operator" style="margin: 2px" value="+">+</button>
+            <button type="button" class="btn-outline-dark" value="4">4</button>
+            <button type="button" class="btn-outline-dark" value="5">5</button>
+            <button type="button" class="btn-outline-dark" value="6">6</button>
 
-                        </div>
-                    </div>
 
-                    <div class="row justify-content-center">
-                        <div class="col-sm">
-                            <button type="button" class="btn btn-outline-dark" style="margin: 2px" value="4">4</button>
-                            <button type="button" class="btn btn-outline-dark" style="margin: 2px" value="5">5</button>
-                            <button type="button" class="btn btn-outline-dark" style="margin: 2px" value="6">6</button>
-                            <button type="button" class="btn btn-outline-primary operator" style="margin: 2px" value="-">-</button>
-                        </div>
-                    </div>
+            <button type="button" class="btn-outline-dark" value="1">1</button>
+            <button type="button" class="btn-outline-dark" value="2">2</button>
+            <button type="button" class="btn-outline-dark" value="3">3</button>
 
-                    <div class="row justify-content-center">
-                        <div class="col-sm">
 
-                            <button type="button" class="btn btn-outline-dark" style="margin: 2px" value="1">1</button>
-                            <button type="button" class="btn btn-outline-dark" style="margin: 2px" value="2">2</button>
-                            <button type="button" class="btn btn-outline-dark" style="margin: 2px" value="3">3</button>
-                            <button type="button" class="btn btn-outline-primary operator" style="margin: 2px" value="*">&times;</button>
-                        </div>
-                    </div>
+            <button type="button" class="btn-outline-dark" value="0">0</button>
+            <button type="button" class="btn-outline-dark decimal" value=".">.</button>
+            <button type="button" class="btn-outline-danger all-clear" value="all-clear">AC</button>
 
-                    <div class="row justify-content-center">
-                        <div class="col-sm">
-                            <button type="button" class="btn btn-outline-dark" style="margin: 2px" value="0">0</button>
-                            <button type="button" class="btn btn-outline-primary decimal" style="margin: 2px" value=".">.</button>
-                            <button type="button" class="btn btn-outline-danger all-clear" style="margin: 2px" value="all-clear">AC</button>
-                            <button type="button" class="btn btn-outline-primary operator" style="margin: 2px" value="/">&divide;</button>
-                        </div>
-                    </div>
+            <button type="button" class="btn-outline-primary equal-sign operator" value="=">=</button>
 
-                    <div class="row justify-content-center">
-                        <div class="col-sm">
-                            <button type="button" class="btn btn-outline-success equal-sign operator" style="margin: 2px; width: 180px" value="=">=</button>
-                        </div>
-                    </div>
+        </div>
 
-                </div>
-            </div>
-        </section>
     </div>
     <script src="./index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
